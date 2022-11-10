@@ -457,7 +457,10 @@ p {
 
 .footer-container {
   display: flex;
-  gap: 70px;
+}
+
+.join {
+  margin-left: 70px;
 }
 
 .join-title {
@@ -469,6 +472,7 @@ p {
   color: var(--hero--title--color);
 
   margin-bottom: 20px;
+  margin-top: 12px;
 }
 
 .join-list {
