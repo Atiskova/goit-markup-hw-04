@@ -128,6 +128,7 @@ p {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--logo--primary--color);
+  outline: transparent;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -222,6 +223,7 @@ p {
 .hero-button:hover,
 .hero-button:focus {
   background: var(--button--active--bg--color);
+  outline: transparent;
 }
 
 /* Особливості */
@@ -245,17 +247,15 @@ p {
   min-width: 270px;
 }
 
+
 .specialty-icon {
-  display: block;
-  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--portfolio--button--bg--color);
+  border-radius: 4px;
   height: 120px;
   width: 270px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--portfolio--button--bg--color);
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-bottom: 30px;
 }
 
@@ -345,6 +345,7 @@ p {
   border-radius: 50%;
   background-color: var(--button--bg--color);
   color: var(--hero--title--color);
+  outline: transparent;
 }
 
 .social-link {
@@ -406,12 +407,7 @@ p {
   content: "";
   padding-top: 16px;
   padding-bottom: 16px;
-  fill: var(--client--color);
-}
-
-.client-icon:hover,
-.client-icon:focus {
-  fill: var(--button--bg--color);
+  fill: currentColor;
 }
 
 /* footer */
@@ -504,6 +500,7 @@ p {
   border-radius: 50%;
   background-color: var(--button--bg--color);
   color: var(--hero--title--color);
+  outline: transparent;
 }
 
 /* Портфоліо */
